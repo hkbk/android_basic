@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/edittextbackground"
+    tools:context=".RegistrationActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Registration"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+
+        />
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:padding="15dp"-->
+        <!--android:id="@+id/user_name"-->
+        <!--android:hint="User name:"-->
+        <!--android:background="@drawable/edittextbackground"-->
+        <!--android:textColorHint="@android:color/white"-->
+        <!--/>-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:id="@+id/email_registration"
+        android:hint="Email:"
+        android:background="@drawable/edittextbackground"
+        android:textColorHint="@android:color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:hint="Password:"
+        android:inputType="numberPassword"
+        android:id="@+id/pass_registration"
+        android:background="@drawable/edittextbackground"
+        android:textColorHint="@android:color/white"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbackground"
+        android:layout_margin="10dp"
+        android:id="@+id/registration_btn"
+        android:text="Registration"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/customString"
+        android:id="@+id/txt_registration"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        />
+
+
+
+</LinearLayout>
