@@ -44,14 +44,13 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance().getReference().child("UserData");
 
-        if (mAuth.getCurrentUser() != null) {
-            startActivity(new Intent(getApplicationContext(), NotesActivity.class));
-        }
+//        if (mAuth.getCurrentUser() != null) {
+//            startActivity(new Intent(getApplicationContext(), NotesActivity.class));
+//        }
+
         //init a ProgressBar class.
         mDialog = new ProgressBar(this);
-
         loginFunc();
-
     }
 
     @Override

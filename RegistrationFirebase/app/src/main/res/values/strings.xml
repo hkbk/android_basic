@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">RegistrationFirebase</string>
-    <string name="customString">Already have account, <u>SignIn here</u></string>
+    <string name="customString">Already have account, <u>Sign In Here!</u></string>
+    <string name="custom_text">input text</string>
 </resources>
